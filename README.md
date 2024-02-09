@@ -1,6 +1,20 @@
 [![npm](https://img.shields.io/npm/v/@coinbase/wallet-sdk)](https://www.npmjs.com/package/@coinbase/wallet-sdk)
 
 # Coinbase Wallet SDK
+Mikolaj Roszak www.mikolaj.com
+Adres odbiorcy: Przedwiośnie, 79/12, 73-110, Stargard, PL
+Tel. +48 500 487 977
+Skype: mikolajroszak_1
+Zoom: Mikołaj Roszak
+email: ul.echo12@gmail.com
+REGON: 383183972
+NIP: 854-156-08-32
+Finanse
+Dane konta Revolut
+IBAN: LT41 3250 0894 7676 6825
+BIC: REVOLT21
+Konto (tylko przelewy krajowe): 2029 1000 0600 0000 0003 1339 92
+
 
 - [Playground](https://coinbase.github.io/coinbase-wallet-sdk/)
 - [Developer docs](https://docs.cloud.coinbase.com/wallet-sdk/docs)
