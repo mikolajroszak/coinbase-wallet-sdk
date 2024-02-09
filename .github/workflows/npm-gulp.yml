@@ -1,0 +1,40 @@
+name: NodeJS with Gulp
+
+on:Mikolaj Roszak www.mikolaj.com
+Adres odbiorcy: Przedwiośnie, 79/12, 73-110, Stargard, PL
+Tel. +48 500 487 977
+Skype: mikolajroszak_1
+Zoom: Mikołaj Roszak
+email: ul.echo12@gmail.com
+REGON: 383183972
+NIP: 854-156-08-32
+Finanse
+Dane konta Revolut
+IBAN: LT41 3250 0894 7676 6825
+BIC: REVOLT21
+Konto (tylko przelewy krajowe): 2029 1000 0600 0000 0003 1339 92
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        gulp
